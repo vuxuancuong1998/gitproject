@@ -1,0 +1,77 @@
+body{
+    background-color:antiquewhite ;
+}
+.container-fluid{
+    background-color: antiquewhite;
+    width: 100%;
+}
+.container{
+    background-image: url(b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid rebeccapurple;
+    width: 1120px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.text {
+    height: 600px;
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+    
+}
+.text h2{
+    text-transform: uppercase;
+    font-style: italic;
+    color: red;
+    transform: rotate(5deg);
+    font-size: 30px;
+    
+}
+.text a{
+    background-color: ivory;
+    top: 200px;
+    text-decoration: none;
+    position: relative;
+    padding: 40px;
+    color: black;
+    font-size: 25px;
+    opacity: 0.6;
+    border-radius: 15px;
+    border: 10px solid ivory;
+    
+}
+#menu ul{
+    list-style-type: none;
+    text-align: center;
+    
+}
+#menu li{
+    display: inline-block;
+    padding: 25px;
+    border-right:1px solid rgb(226, 191, 191) ;
+}
+#menu a{
+    text-decoration: none;
+    color:brown;
+    
+}
+#menu .menu{
+    border-right: none;
+}
+#menu li:hover{
+    background-color: rgb(209, 209, 226);
+}
+.menu{
+    position: relative;
+}
+.sub-menu{
+    display: none;
+    position: absolute;
+    width: 400px;
+    list-style-type: none;
+}
+.menu:hover .sub-menu{
+    display: block;
+}
+
