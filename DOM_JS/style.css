@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(104, 109, 112);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: coral;
+    width: 300px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+label {
+    color:rgb(248, 237, 248);
+}
+.content{
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    
+}
+.content ul{
+    color: white;
+    list-style: none;
+    
+}
+.content ul li{
+    border: 2px double red;
+}
+.closeItem{
+    text-transform: uppercase;
+    float: right;
+    color: white;
+}
+.checkbox {
+    float: left;
+}
+#my-form {
+    padding: 10px;
+}
